@@ -1,9 +1,12 @@
 
 
 
+
+
 # how-to-webpack-pc
 Tools Prerequisites PC preperation for webpack module based ES6 development of html components AKA pages
 
+## Windows 10 and Powershell 5
 
 ## Install Node.JS Current
 
