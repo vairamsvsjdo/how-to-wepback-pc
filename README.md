@@ -30,13 +30,14 @@ where npm should display
 
 ## Yarn
 After this set your installation to yarn by installing yarn
-'''
+```
 npm install -g yarn
-'''
+```
 ### Global
 https://yarnpkg.com/lang/en/docs/cli/global/
 
 ## Install webpack
-'''
+```
 yarn global add webpack
-'''
+```
+
