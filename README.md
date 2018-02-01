@@ -45,6 +45,8 @@ https://yarnpkg.com/lang/en/docs/cli/global/
 yarn global add webpack
 ```
 
+https://webpack.js.org/guides/getting-started/
+
 ## Visual Studio Code
 Install Visual Studio Code from https://code.visualstudio.com/
 
