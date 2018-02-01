@@ -1,5 +1,6 @@
 
 
+
 # how-to-webpack-pc
 Tools Prerequisites PC preperation for webpack module based ES6 development of html components AKA pages
 
@@ -40,4 +41,7 @@ https://yarnpkg.com/lang/en/docs/cli/global/
 ```
 yarn global add webpack
 ```
+
+## Visual Studio Code
+Install Visual Studio Code from https://code.visualstudio.com/
 
