@@ -69,13 +69,21 @@ npm install -g yarn
 ### Global
 https://yarnpkg.com/lang/en/docs/cli/global/
 
-## Install webpack
+## typescript and babeljs - the time-travel machines
+Both maybe needed. However, use yarn always to avoid features that are not needed when you go through the time travel machine and found the side effects of including features that you don't want to see in the present time 
+
+## Install webpack, gulpjs, commonjs, jspm
 ```
 yarn global add webpack
+yarn global add gulp
+yarn global add commonjs
+yarn global add jspm
 ```
 
 https://webpack.js.org/guides/getting-started/
 
 ## Visual Studio Code
 Install Visual Studio Code from https://code.visualstudio.com/
+
+
 
