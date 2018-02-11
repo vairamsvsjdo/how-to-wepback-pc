@@ -32,6 +32,35 @@ Add C:\ProgramData\npm to your System's Path environment variable such that it i
 ## Where npm
 where npm should display
 
+
+## set global cache folder
+To change the "global" location for all users to a more appropriate shared global location %ALLUSERSPROFILE%\(npm|npm-cache) (do this as an administrator):
+
+create an [NODE_INSTALL_PATH]\etc\ directory
+this is needed before you try npm config --global ... actions
+create the global (admin) location(s) for npm modules
+- npm modules will go here
+```
+mkdir C:\ProgramData\npm-cache 
+```
+- binary scripts for globally installed modules will go here
+```
+C:\ProgramData\npm 
+```
+- globally installed modules will go here
+```
+C:\ProgramData\npm\node_modules 
+```
+set the permissions appropriately
+administrators: modify
+authenticated users: read/execute
+Set global configuration settings (Administrator Command Prompt)
+```
+npm config --global set prefix "C:\ProgramData\npm"
+npm config --global set cache "C:\ProgramData\npm-cache"
+```
+Add C:\ProgramData\npm to your System's Path environment variable
+
 ## Yarn
 After this set your installation to yarn by installing yarn
 ```
