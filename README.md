@@ -69,6 +69,15 @@ npm install -g yarn
 ### Global
 https://yarnpkg.com/lang/en/docs/cli/global/
 
+### install angular-cli and set yarn
+```
+yarn global add @angular/cli
+```
+
+```
+ng set --global packageManager=yarn
+```
+
 ## typescript and babeljs - the time-travel machines
 Both maybe needed. However, use yarn always to avoid features that are not needed when you go through the time travel machine and found the side effects of including features that you don't want to see in the present time 
 
