@@ -94,5 +94,16 @@ https://webpack.js.org/guides/getting-started/
 ## Visual Studio Code
 Install Visual Studio Code from https://code.visualstudio.com/
 
+## TypeScript configurations
+```
+yarn global add @types/jasmine
+yarn global add jasmine
+```
+yarn add @types/jasmine --dev
+yarn add @jasmine --dev
+```
+in tsconfig.json of the project update
 
-
+```
+"types": ["jasmine"]
+```
