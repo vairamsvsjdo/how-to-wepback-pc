@@ -94,6 +94,11 @@ https://webpack.js.org/guides/getting-started/
 ## Visual Studio Code
 Install Visual Studio Code from https://code.visualstudio.com/
 
+### VSCode VueJs emmmet
+https://docs.emmet.io/cheat-sheet/
+https://medium.com/@BjornKrols/integrating-and-customising-bootstrap-4-in-vue-js-cbc29ba7688e
+https://github.com/JayDevOps/make-bootstrap-sexy-again
+
 ## TypeScript configurations
 ```
 yarn global add @types/jasmine
