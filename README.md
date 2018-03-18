@@ -99,6 +99,11 @@ https://docs.emmet.io/cheat-sheet/
 https://medium.com/@BjornKrols/integrating-and-customising-bootstrap-4-in-vue-js-cbc29ba7688e
 https://github.com/JayDevOps/make-bootstrap-sexy-again
 
+### VSCOde VueJS Universal - static pages
+https://nuxtjs.org/
+https://ssr.vuejs.org/en/universal.html
+https://vuejs.org/v2/guide/ssr.html
+
 ## TypeScript configurations
 ```
 yarn global add @types/jasmine
