@@ -89,6 +89,13 @@ yarn global add commonjs
 yarn global add jspm
 ```
 
+### List of npm commands for update and check package versions
+``` batch
+npm view @babel/core versions
+npm update
+```
+
+
 https://webpack.js.org/guides/getting-started/
 
 ## Visual Studio Code
