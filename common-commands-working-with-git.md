@@ -205,9 +205,13 @@ git checkout -b new-new-branch a1f29a6
 ```
 git checkout master
 ```
+https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+
 ```
 git pull --rebase upstream master
 ```
+
+
 ```
 git push -f origin master
 ```
