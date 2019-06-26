@@ -1,3 +1,5 @@
+https://access.redhat.com/documentation/en-us/red_hat_network_satellite/5.5/html/reference_guide/sect-reference_guide-package_updater-updating_packages_from_the_command_line_with_yum
+
 ``` bash
 sudo visudo
 ```
