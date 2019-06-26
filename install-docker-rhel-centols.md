@@ -14,6 +14,8 @@ sudo visudo
 sudo usermod -aG wheel $USER
 yum install docker
 usermod -aG dockerroot $USER
+# file – User group file
+/etc/group 
 sudo /etc/docker/daemon.json
 ```
 
