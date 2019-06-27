@@ -14,6 +14,7 @@ sudo visudo
 
 ``` bash
 sudo usermod -aG wheel $USER
+sudo su -
 yum install docker
 usermod -aG dockerroot $USER
 # file – User group file
