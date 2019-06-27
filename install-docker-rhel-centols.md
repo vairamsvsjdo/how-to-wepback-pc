@@ -19,8 +19,8 @@ yum install docker -y
 yum update -y
 usermod -aG dockerroot $USER
 # file – User group file
-/etc/group 
-sudo /etc/docker/daemon.json
+sudo cat /etc/group 
+sudo vi /etc/docker/daemon.json
 ```
 
 ``` json
