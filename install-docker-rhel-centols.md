@@ -15,7 +15,8 @@ sudo visudo
 ``` bash
 sudo usermod -aG wheel $USER
 sudo su -
-yum install docker
+yum install docker -y
+yum update -y
 usermod -aG dockerroot $USER
 # file – User group file
 /etc/group 
