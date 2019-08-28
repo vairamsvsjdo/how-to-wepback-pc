@@ -1,3 +1,10 @@
+## Install ubuntu-linux-on-wsl
+
+```bash
+apt install libssl-dev -y -q
+apt autoremove libfreetype6 -y -q 
+apt update -y -q
+```
 
 
 ```bat
